@@ -1,0 +1,23 @@
+body
+{
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 40px 1fr 60px;
+    gap: var(--padding);
+    min-height: 100vh;
+    margin: 0;
+}
+@media screen and (max-width: 500px)
+body{
+
+ 
+}
+#nav
+{
+ grid-row: 1;
+
+}
+nav > ul
+{
+
+}
